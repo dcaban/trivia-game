@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>National Park Trivia</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+     <div class="container text-center vertical-center">
+    <div class="col-md-6 col-sm-12">
+        <div id="content">
+           <h1>National Park Trivia</h1>
+            <h2 id="timer">Click To Start Start</h2>
+              <div class="row">
+                <h2 class="col-md-6 col-sm-12" id="questions"></h2>
+                <!--make space for questions-->
+                  <div class="col-md-6" id="answers">
+                      <label><button id="answer1" type="button" class="btn btn-outline-dark"><input type="radio" name="option" value="1">...</button></label><br>
+                      <label><button id="answer2" type="button" class="btn btn-outline-dark"><input type="radio" name="option" value="2">...</button></label><br>
+                      <label><button id="answer3" type="button" class="btn btn-outline-dark"><input type="radio" name="option" value="3">...</button></label><br>
+                      <label><button id="answer4" type="button" class="btn btn-outline-dark"><input type="radio" name="option" value="4">...</button></label><br>
+                  </div>
+
+          </div>
+        <button type="button" class="btn btn-success btn-lg" id="submit">submit</button>
+    </div>
+</div>
+     </div>
+
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Script -->
+<script src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>

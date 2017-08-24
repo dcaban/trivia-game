@@ -1,0 +1,68 @@
+.vertical-center {
+    min-height: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+}
+
+body{
+    background-image: url("../images/yosemite.jpg");
+    background-repeat: no-repeat;
+    background-size: 180vh;
+    height: 100vh;
+    background-position: center;
+    background-color: darkslategrey;
+}
+h1{
+    color: #4f6339;
+    opacity: .77;
+    font-weight: 800;
+}
+h2{
+    font-weight: 300;
+    color: #493932;
+    opacity: .80;
+}
+
+#timer{
+    background-color: transparent;
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+}
+
+#content{
+
+    padding-right:80px;
+}
+
+#submit{
+    width:280px;
+    margin-top: 60px;
+    background-color: darkslategrey;
+    border-color: darkslategrey;
+    opacity: .88;
+}
+#submit:hover{
+
+    opacity: 1.0;
+}
+
+
+.btn-outline-dark{
+    margin-bottom: 5px;
+    opacity: .84;
+}
+
+@media only screen and (max-width: 767px){
+    body{
+        background-image: url("../images/newYosemite2.png");
+    }
+    #content{
+        background-image: url("../images/contentCover.jpg");
+        padding-right:0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
