@@ -3,41 +3,29 @@ var questions = [{
     choices: ['John Muir', 'James Muir', 'George Washington', 'Ronald Wilkerson'],
     correctAnswer: 1
 }, {
-    question: "What is the capital of Australia?",
-    choices: ["Melbourne", "Sydney", "Canberra", "Queensland", "Christchurch"],
+    question: "How much land does the national park system cover?",
+    choices: ["84 Million Acres", "70 Thousand acres", "84 Miles", "800 Thousand Acres"],
     correctAnswer: 2
 }, {
-    question: "Who is the prime minister of the U.K.?",
-    choices: ['Tony Blair', 'David Cameron', 'Nicolas Sarkozy', 'Gordon Brown', 'Sir John Major'],
+    question: "What was the first national park?",
+    choices: ['Yellowstone', 'Moab', 'Yosemite', 'The Grand Canyon'],
     correctAnswer: 1
 }, {
-    question: "What is the first perfect number?",
-    choices: [38, 6, 0, 256, 28],
+    question: "When was the first national park created?",
+    choices: ["1028 CE", "1877 CE", "1772 CE", "1292 CE"],
     correctAnswer: 1
 }, {
-    question: "What colors are on the flag of Norway?",
-    choices: ["red and blue", "red and white", "red, white, and silver", "red, white, and blue", "blue and gold"],
+    question: "What river runs through the Grand Canyon?",
+    choices: ["The Colorado River", "The Rio Grande", "The Canyon River", "The LA River"],
     correctAnswer: 3
 }, {
-    question: "When did the Soviet Union collapse?",
-    choices: ["14 February 1989", "1 January 1988", "31 October 1993", "26 April 1986", "26 December 1991"],
+    question: "What park has the deepest lake in The United States?",
+    choices: ["Glacier Natioanl Park", "Lake Clark Natioanl Park", "Great Lake Natioanl Park", "Crater Lake Natioanl Park"],
     correctAnswer: 4
 }, {
-    question: "What is the currency of Switzerland?",
-    choices: ["franc", "Euro", "rupee", "won", "dollar"],
+    question: "What national park has the largest tree in the world?",
+    choices: ["Redwood Natioanl Park", "Grand Tetons Natioanl Park", "Sequoia Natioanl Park", "Joshua Tree Natioanl Park"],
     correctAnswer: 0
-}, {
-    question: "What is the square root of 256?",
-    choices: [24, 25, 30, 26, 22],
-    correctAnswer: 0
-}, {
-    question: "What are the three main types of rocks?",
-    choices: ['igneous, volcanic, quartz', 'sedimentary, igneous, metamorphic', 'feldspar, metamorphic, sedimentary', 'gargantuan, feldspar, quartz', 'None of the above'],
-    correctAnswer: 1
-}, {
-    question: "What movie did Leonardo DiCaprio win a BAFTA Film Award for?",
-    choices: ['Inception', "What's Eating Gilbert Grape", 'The Revenant', 'The Wolf of Wall Street', 'He never got one.'],
-    correctAnswer: 2
 }
 ];
 
